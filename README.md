@@ -1,32 +1,128 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI 🚀🚀
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+![Welth Dashboard](https://drive.google.com/uc?export=view&id=1Y7G9-LtEr0YyYtZffH8eDEqe1e8xmB3A)
 
-### Make sure to create a `.env` file with following variables -
+# FinSavvy AI
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Project Structure](#project-structure)
+- [Contributors](#contributors)
+- [License](#license)
+
+---
+
+## Project Overview
+
+**FinSavvy AI** is an AI-powered, one-stop finance platform designed to help users manage their finances efficiently. The platform offers features such as transaction tracking, dashboard analytics, and AI-driven financial insights.
+
+---
+
+## Features
+
+- User authentication and authorization
+- Add, edit, and delete financial transactions
+- Dashboard with analytics and visualizations
+- AI-powered financial recommendations
+- Responsive and modern UI
+- Secure data handling
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Node.js, Express (if applicable)
+- **Authentication:** Clerk
+- **Database:** (e.g., MongoDB, PostgreSQL)
+- **AI/ML:** (e.g., OpenAI API, custom models)
+- **Other:** Sonner (notifications), Lucide React (icons)
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/BitPayal/FinSavvy-AI.git
+   cd FinSavvy-AI
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   - Create a `.env.local` file in the root directory.
+   - Add required environment variables (see `.env.example` if available).
+
+4. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+
+---
+
+## Usage
+
+- Register or log in to your account.
+- Add your financial transactions.
+- View analytics and AI-driven insights on your dashboard.
+- Use the platform on desktop or mobile devices.
+
+---
+
+## Screenshots
+
+<!-- Add screenshots of your app here -->
+![Dashboard Screenshot](screenshots/dashboard.png)
+![Transaction Page](screenshots/transactions.png)
+
+---
+
+## Project Structure
 
 ```
-DATABASE_URL=
-DIRECT_URL=
+ai-finance-platform/
+├── app/
+├── components/
+├── lib/
+├── public/
+├── styles/
+├── package.json
+├── README.md
+└── ...
+```
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+---
 
-GEMINI_API_KEY=
+## Contributors
 
+- [Payal Choudhary](https://github.com/BitPayal) (Project Lead & Developer)
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Acknowledgements
+
+- [Clerk](https://clerk.dev/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [OpenAI](https://openai.com/) (if used)
 RESEND_API_KEY=
 
 ARCJET_KEY=
 ```
 =======
-# FinSavvy-AI
->>>>>>> 6f6bc96a326082a3a7749efa9269db504cc77f14
-=======
-# FinSavvy-AI
->>>>>>> fb7be58b320371a3877130cf2a562c89be745e08
